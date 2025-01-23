@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project was developed for the **Case Studies in Machine Learning** graduate course at **UT Austin, Fall 2024**, focusing on classifying images of Plegadis birds using machine learning models deployed via AWS SageMaker. The dataset used for this project is courtesy of **Ryan Klutts of Louisiana State University**. The goal of the project was to compare a custom Convolutional Neural Network (CNN) model with transfer learning models using **EfficientNet** and **ResNet-50** architectures. Ultimately, I decided to use the ResNet-50 based model for classification since it performed the best on the validation set. The models are implemented in the files:
+This project was developed for the **Case Studies in Machine Learning** graduate course at **UT Austin, Fall 2024**, focusing on classifying images of Plegadis birds using machine learning models deployed via AWS SageMaker. The dataset used for this project is courtesy of **Ryan Klutts of Louisiana State University**. The goal of the project was to compare a custom Convolutional Neural Network (CNN) model with transfer learning models using **EfficientNet** and **ResNet-50** architectures. Ultimately, I decided to use the ResNet-50 based model for classification since it performed the best on the validation set (take a look at the test results in `PyTorchModel.ipynb`) . The models are implemented in the files:
 
 - `code/train.py`, `code/model.py`, and `code/inference.py` – Custom CNN model implementation
 - `code/train_efficient_net.py` and `code/inference_efficient_net.py` – Transfer learning with EfficientNet
