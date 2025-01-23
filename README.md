@@ -32,3 +32,7 @@ This project was developed for the **Case Studies in Machine Learning** graduate
 2. Set up AWS credentials and run the training notebook.
 
 
+## Note
+There is a fair amount of junk in this repo. I basically just saved what was in AWS and uploaded it to GitHub raw. 
+
+
